@@ -73,13 +73,13 @@ section {
 
 #bb1 {
     font-size: 50px;
-    background-image:https://beautiful-dasik-b4aa52.netlify.app(/coding.jpg);
+    background-image:url(https://beautiful-dasik-b4aa52.netlify.app/coding.jpg);
     color: #8a2be2;
 }
 
 #bb2 {
     font-size: 65px;
-    background-image:https://beautiful-dasik-b4aa52.netlify(/sunrise.jpg);
+    background-image:url(https://beautiful-dasik-b4aa52.netlify.app/sunrise.jpg);
 }
 
 .bf2 {
