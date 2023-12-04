@@ -58,13 +58,13 @@ section {
 
 #bb1 {
     font-size: 50px;
-    background-image: https://profound-salamander-8b0fb0.netlify.app(img/coding_nmr.jpg);
+    background-image: url(https://profound-salamander-8b0fb0.netlify.app/coding_nmr.jpg);
     color: #8a2be2;
 }
 
 #bb2 {
     font-size: 65px;
-    background-image: https://profound-salamander-8b0fb0.netlify.app(img/sunrise_yellow.jpg);
+    background-image: url(https://profound-salamander-8b0fb0.netlify.app/sunrise_yellow.jpg);
 }
 
 .bf2 {
