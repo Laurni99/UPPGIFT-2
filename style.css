@@ -1,72 +1,95 @@
-@charset "UTF-8";
-.container{display: grid;
+@charset "utf-8";
+
+.container {
+    display: grid;
     grid-template-columns: 150px 150px 200px;
     grid-template-rows: 10px 50px;
 
-} 
-
-.item { grid-area: 1/4/10;
-
-} 
-.flexconteiner{display: flex;
-    flex-direction: column; 
-  align-items: center;
-  justify-content: space-around;
-} 
-
-.flex-item {
-  background-color: rgb(128, 141, 240);
-  padding: 10px;
-  margin: 5px;
 }
 
-body {background-color: #87CEEB;}
-html
-{font-size: 16px;}
-body 
-{background-color: #87CEEB;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+.item {
+    grid-area: 1/4/10;
 
-h1
-{font-size:xx-large}
+}
 
+.flexconteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.flex-item {
+    background-color: #808df0;
+    padding: 10px;
+    margin: 5px;
+}
 
-h1
-{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
-section
+body {
+    background-color: #87ceeb;
+}
 
-{background-color: ff0000;}
+html {
+    font-size: 16px;
+}
 
+body {
+    background-color: #87ceeb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
 
-#box1{background-color: #ff0000}
-#box2{background-color: #FFFF00;}
-#box3{background-color: #008000;}
-.speciel{
-        width: 500px; ;
-        font-style:oblique;
-        margin-right: 10;}
-
-
-#bb1 
-{font-size: 50px;
-    background-image: url(https://beautiful-dasik-b4aa52.netlify.app//coding\ nmr.jpg);
-    color: blueviolet;
-    }
-#bb2
-    {font-size: 65px;
-        background-image: url(https://beautiful-dasik-b4aa52.netlify.app//sunrise\ yellow.jpg);
-        
-        }
-
-
-.bf2 
-{background-color: rgb(218, 170, 104);}
-
-.bf3 
-{background-color: rgb(104, 218, 163);}
+h1 {
+    font-size: xx-large
+}
 
 
 
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section {
+    background-color: #ff0000;
+}
 
 
+#box1 {
+    background-color: #ff0000
+}
+
+#box2 {
+    background-color: #ffff00;
+}
+
+#box3 {
+    background-color: #008000;
+}
+
+.speciel {
+    width: 500px;
+    ;
+    font-style: oblique;
+    margin-right: 10;
+}
+
+
+#bb1 {
+    font-size: 50px;
+    background-image: url(img/coding\ nmr.jpg);
+    color: #8a2be2;
+}
+
+#bb2 {
+    font-size: 65px;
+    background-image: url(img/sunrise\ yellow.jpg);
+
+}
+
+
+.bf2 {
+    background-color: #daaa68;
+}
+
+.bf3 {
+    background-color: #68daa3;
+}
